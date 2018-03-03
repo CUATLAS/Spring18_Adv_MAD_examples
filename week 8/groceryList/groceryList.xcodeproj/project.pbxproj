@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75199A9420473E39007D8C9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75199A9320473E39007D8C9F /* AppDelegate.swift */; };
+		75199A9920473E39007D8C9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75199A9720473E39007D8C9F /* Main.storyboard */; };
+		75199A9B20473E39007D8C9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75199A9A20473E39007D8C9F /* Assets.xcassets */; };
+		75199A9E20473E39007D8C9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75199A9C20473E39007D8C9F /* LaunchScreen.storyboard */; };
+		75199AA62047423D007D8C9F /* GroceryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75199AA52047423D007D8C9F /* GroceryTableViewController.swift */; };
+		75199AA8204742A5007D8C9F /* Grocery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75199AA7204742A5007D8C9F /* Grocery.swift */; };
+		95847984754C9973ED163478 /* Pods_groceryList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD480D421C055C184C309EF /* Pods_groceryList.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1DD480D421C055C184C309EF /* Pods_groceryList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_groceryList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BA602C99BCEC7A8B53171A2 /* Pods-groceryList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-groceryList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-groceryList/Pods-groceryList.debug.xcconfig"; sourceTree = "<group>"; };
+		75199A9020473E39007D8C9F /* groceryList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = groceryList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75199A9320473E39007D8C9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		75199A9820473E39007D8C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		75199A9A20473E39007D8C9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		75199A9D20473E39007D8C9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		75199A9F20473E39007D8C9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75199AA52047423D007D8C9F /* GroceryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryTableViewController.swift; sourceTree = "<group>"; };
+		75199AA7204742A5007D8C9F /* Grocery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grocery.swift; sourceTree = "<group>"; };
+		A37B9C6FCE46CF238A279E68 /* Pods-groceryList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-groceryList.release.xcconfig"; path = "Pods/Target Support Files/Pods-groceryList/Pods-groceryList.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75199A8D20473E39007D8C9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95847984754C9973ED163478 /* Pods_groceryList.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41E5CCB6A5651FF42437F7D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BA602C99BCEC7A8B53171A2 /* Pods-groceryList.debug.xcconfig */,
+				A37B9C6FCE46CF238A279E68 /* Pods-groceryList.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		52002A80CC55ECF82A66F1DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DD480D421C055C184C309EF /* Pods_groceryList.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75199A8720473E39007D8C9F = {
+			isa = PBXGroup;
+			children = (
+				75199A9220473E39007D8C9F /* groceryList */,
+				75199A9120473E39007D8C9F /* Products */,
+				41E5CCB6A5651FF42437F7D8 /* Pods */,
+				52002A80CC55ECF82A66F1DA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		75199A9120473E39007D8C9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75199A9020473E39007D8C9F /* groceryList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75199A9220473E39007D8C9F /* groceryList */ = {
+			isa = PBXGroup;
+			children = (
+				75199A9320473E39007D8C9F /* AppDelegate.swift */,
+				75199A9720473E39007D8C9F /* Main.storyboard */,
+				75199AA52047423D007D8C9F /* GroceryTableViewController.swift */,
+				75199AA7204742A5007D8C9F /* Grocery.swift */,
+				75199A9A20473E39007D8C9F /* Assets.xcassets */,
+				75199A9C20473E39007D8C9F /* LaunchScreen.storyboard */,
+				75199A9F20473E39007D8C9F /* Info.plist */,
+			);
+			path = groceryList;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		75199A8F20473E39007D8C9F /* groceryList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75199AA220473E39007D8C9F /* Build configuration list for PBXNativeTarget "groceryList" */;
+			buildPhases = (
+				37E40E5F643A777EF9284AE8 /* [CP] Check Pods Manifest.lock */,
+				75199A8C20473E39007D8C9F /* Sources */,
+				75199A8D20473E39007D8C9F /* Frameworks */,
+				75199A8E20473E39007D8C9F /* Resources */,
+				EFB9FDEA25787963AAAAB35E /* [CP] Embed Pods Frameworks */,
+				9EB3F8D3F6D48EE5AF19BE10 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = groceryList;
+			productName = groceryList;
+			productReference = 75199A9020473E39007D8C9F /* groceryList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75199A8820473E39007D8C9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Aileen Pierce";
+				TargetAttributes = {
+					75199A8F20473E39007D8C9F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 75199A8B20473E39007D8C9F /* Build configuration list for PBXProject "groceryList" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75199A8720473E39007D8C9F;
+			productRefGroup = 75199A9120473E39007D8C9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75199A8F20473E39007D8C9F /* groceryList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75199A8E20473E39007D8C9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75199A9E20473E39007D8C9F /* LaunchScreen.storyboard in Resources */,
+				75199A9B20473E39007D8C9F /* Assets.xcassets in Resources */,
+				75199A9920473E39007D8C9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37E40E5F643A777EF9284AE8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-groceryList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EB3F8D3F6D48EE5AF19BE10 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-groceryList/Pods-groceryList-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFB9FDEA25787963AAAAB35E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-groceryList/Pods-groceryList-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-groceryList/Pods-groceryList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75199A8C20473E39007D8C9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75199AA62047423D007D8C9F /* GroceryTableViewController.swift in Sources */,
+				75199A9420473E39007D8C9F /* AppDelegate.swift in Sources */,
+				75199AA8204742A5007D8C9F /* Grocery.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		75199A9720473E39007D8C9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75199A9820473E39007D8C9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		75199A9C20473E39007D8C9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75199A9D20473E39007D8C9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75199AA020473E39007D8C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		75199AA120473E39007D8C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		75199AA320473E39007D8C9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BA602C99BCEC7A8B53171A2 /* Pods-groceryList.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32C86W6J58;
+				INFOPLIST_FILE = groceryList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ATLAS.groceryList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		75199AA420473E39007D8C9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A37B9C6FCE46CF238A279E68 /* Pods-groceryList.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32C86W6J58;
+				INFOPLIST_FILE = groceryList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ATLAS.groceryList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75199A8B20473E39007D8C9F /* Build configuration list for PBXProject "groceryList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75199AA020473E39007D8C9F /* Debug */,
+				75199AA120473E39007D8C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75199AA220473E39007D8C9F /* Build configuration list for PBXNativeTarget "groceryList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75199AA320473E39007D8C9F /* Debug */,
+				75199AA420473E39007D8C9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75199A8820473E39007D8C9F /* Project object */;
+}
