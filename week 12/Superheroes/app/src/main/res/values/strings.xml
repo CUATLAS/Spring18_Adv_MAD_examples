@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Superheroes</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_hero_hint">Hero name</string>
+    <string name="add_dialog_title">Add Hero</string>
+
+</resources>
