@@ -1,9 +1,10 @@
 package com.example.aileen.superheroes;
 
 
-import android.app.Dialog;
+import android.app.AlertDialog;
 import android.app.Fragment;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.ContextMenu;
 import android.view.LayoutInflater;
@@ -98,25 +99,40 @@ public class HeroDetailFragment extends Fragment implements View.OnClickListener
     }
 
     public void addhero(){
-        final Dialog dialog = new Dialog(getActivity());
-        dialog.setContentView(R.layout.dialog);
+        //create alert dialog
+        AlertDialog.Builder dialog = new AlertDialog.Builder(getActivity());
+
+        //create edit text
+        final EditText edittext = new EditText(getActivity());
+
+        //add edit text to dialog
+        dialog.setView(edittext);
+
+        //set dialog title
         dialog.setTitle("Add Hero");
-        dialog.setCancelable(true);
-        final EditText editText = (EditText) dialog.findViewById(R.id.editTextHero);
-        Button button = (Button) dialog.findViewById(R.id.addButton);
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String heroName = editText.getText().toString();
-                // add hero
+
+        //sets OK action
+        dialog.setPositiveButton("Add", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int whichButton) {
+                //get hero name entered
+                String heroName = edittext.getText().toString();
                 if(!heroName.isEmpty()){
+                    // add hero
                     Hero.heroes[(int) universeId].getSuperheroes().add(heroName);
                     //refresh the list view
                     HeroDetailFragment.this.adapter.notifyDataSetChanged();
                 }
-                dialog.dismiss();
             }
         });
+
+        //sets cancel action
+        dialog.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+            public void onClick(DialogInterface dialog, int whichButton) {
+                // cancel
+            }
+        });
+
+        //present alert dialog
         dialog.show();
     }
 
